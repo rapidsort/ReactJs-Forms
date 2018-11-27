@@ -43,7 +43,6 @@ const FormField = (props) => {
         </div>)
         break;
 
-
         default:
         returnField = <input type={props.fieldValues.type} {...props.fieldValues.attributes} {...props.fieldValues.validation} onChange={(event)=>props.inputChangedHandler(event)} />
 
