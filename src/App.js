@@ -103,8 +103,6 @@ class App extends Component {
     }
   }
 
-
-
   inputChangedHandler = (event,key)=>{
     let oldFormData= {...this.state.createForm};
     // console.log(event.target.checked, event.target.value , key);
