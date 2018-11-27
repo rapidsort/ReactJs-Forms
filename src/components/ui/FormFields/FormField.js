@@ -22,7 +22,6 @@ const FormField = (props) => {
         </select>)
         break;
 
-
         case ('radio'):
         returnField = (<div>
             {props.fieldValues.options.map(single=>{
